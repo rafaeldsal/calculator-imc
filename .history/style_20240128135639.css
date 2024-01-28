@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #ABABAB;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin-top: -10rem;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 12.4rem 20.4rem 8rem;
+  border-radius: .6rem;
+}

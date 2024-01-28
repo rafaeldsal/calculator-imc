@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #ABABAB;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin-top: -10rem;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 12.4rem 20.4rem 8rem;
+  border-radius: .6rem;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.values-user form{
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+label span {
+  margin-bottom: .5rem;
+}
+
+label input {
+  margin-bottom: 4.1rem;
+}

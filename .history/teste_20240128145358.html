@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela IMC</title>
+    <style>
+        table {
+            width: 60%;
+            margin: 20px auto; /* Centraliza a tabela na página */
+            border: none; /* Remove todas as bordas da tabela */
+            border-collapse: collapse; /* Remove espaçamento entre células */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #E85B81; /* Cor de fundo do cabeçalho */
+            color: white; /* Cor do texto no cabeçalho */
+        }
+
+        tr:not(:first-child) {
+            border-top: 1px solid #E85B81; /* Adiciona linha de cor entre header e body */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Peso</th>
+        <th>Altura</th>
+        <th>IMC</th>
+        <th>Resultado</th>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>1,65</td>
+        <td>22.04</td>
+        <td>Peso Normal</td>
+    </tr>
+</table>
+
+</body>
+</html>

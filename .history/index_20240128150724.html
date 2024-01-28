@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="values-user">
+        <form>
+          <label for="weight">
+            <span>Peso</span>
+            <input id="weight" type="text" placeholder="KG" />
+          </label>
+          <label for="height">
+            <span>Altura</span>
+            <input id="height" type="text" placeholder="CM" />
+          </label>
+          <button class="btnCalcular hide">Calcular</button>
+          <button class="btnRe hide">Calcular</button>
+        </form>
+      </div>
+      <!-- values-user -->
+
+      <div class="result">
+        <div class="result-text hide">
+          <p>Saiba agora se está no seu peso ideal!</p>
+        </div>
+        <div class="result-table ">
+          <table>
+            <caption></caption>
+            <tr>
+              <th>Peso</th>
+              <th>Altura</th>
+              <th>IMC</th>
+              <th>Resultado</th>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>1,65</td>
+              <td>22.04</td>
+              <td>Peso Normal</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- result -->
+
+      <div class="info-table">
+        <table>
+          <caption></caption>
+          <tr>
+            <th>IMC</th>
+            <th>Classificação</th>
+          </tr>
+          <tr>
+            <td>Menos de 17</td>
+            <td>Muito abaixo do peso</td>
+          </tr>
+          <tr>
+            <td>Entre 17 e 18,49</td>
+            <td>Abaixo do peso</td>
+          </tr>
+          <tr>
+            <td>Entre 18,5 e 24,99</td>
+            <td>Saudável</td>
+          </tr>
+          <tr>
+            <td>Entre 25 e 29,99</td>
+            <td>Sobrepeso</td>
+          </tr>
+          <tr>
+            <td>Entre 30 e 34,99</td>
+            <td>Obesidade grau I</td>
+          </tr>
+          <tr>
+            <td>Entre 35 e 39,99</td>
+            <td>Obesidade grau II (severa)</td>
+          </tr>
+          <tr>
+            <td>Acima de 40</td>
+            <td>Obesidade grau III (mórbida)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
